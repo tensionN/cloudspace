@@ -1,0 +1,6 @@
+{
+  "serverPORT": 5000,
+  "dbURL": "mongodb+srv://admin:HIgsBF8qobeqj2Ln@cloudspace.ojjdd3o.mongodb.net/?retryWrites=true&w=majority",
+  "secretKey": "my-secret-key",
+  "filePath": "D:\\Кваліфікаційна робота\\CloudSpace\\server\\files"
+}

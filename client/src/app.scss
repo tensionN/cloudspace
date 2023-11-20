@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  //font-family: 'Mooli', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #fafafa;
+  color: black;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}

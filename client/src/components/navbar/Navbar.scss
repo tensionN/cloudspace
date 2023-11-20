@@ -1,0 +1,25 @@
+.Navbar {
+  background-color: #84009d;
+}
+
+.Navbar__logo {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar__container {
+
+  width: 1120px;
+  margin: 0 auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar__links {
+  display: flex;
+  gap: 15px;
+}

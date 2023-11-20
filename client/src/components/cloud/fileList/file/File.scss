@@ -1,0 +1,62 @@
+.file {
+  border-bottom: solid 2px #C7C7C7;
+  display: grid;
+  grid-template-columns: 1fr 4fr repeat(4, 1fr);
+  align-items: center;
+  height: 48px;
+  padding-top: 5px;
+  &:hover {
+    background-color: #ececec;
+  }
+
+  &__name, &__date, &__size {
+    font-weight: 500;
+  }
+
+  &__img {
+    justify-self: center;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+
+  &__date {
+    grid-column-start: 5;
+    justify-self: center;
+  }
+
+  &__size {
+    grid-column-start: 6;
+    justify-self: center;
+  }
+
+  &__btn {
+    display: none;
+  }
+
+  &:hover &__download {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    outline: none;
+    border: none;
+    background: transparent;
+    display: inline;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  &__btn:hover {
+    background-color: #fff;
+  }
+
+  &:hover &__delete {
+    background: transparent;
+     grid-row-start: 1;
+    grid-column-start: 4;
+    outline: none;
+    border: none;
+    display: inline;
+    cursor: pointer;
+    width: 50%;
+  }
+}
+
